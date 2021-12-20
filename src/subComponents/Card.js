@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Github } from "../components/AllSvgs";
 import { mediaQueries } from "../components/Themes";
 
 const Box = styled(motion.li)`
@@ -116,16 +115,6 @@ const Link = styled(NavLink)`
     color: ${(props) => props.theme.body};
   }
 `;
-const Git = styled(NavLink)`
-  color: inherit;
-  text-decoration: none;
-
-  ${Box}:hover & {
-    & > * {
-      fill: ${(props) => props.theme.text};
-    }
-  }
-`;
 
 const item = {
   hidden: { scale: 0 },
@@ -133,7 +122,7 @@ const item = {
 };
 //const tags = ["react","gsap","javascript"]
 const Card = (props) => {
-  const { id, name, description, tags, demo, github } = props.data;
+  const { id, name, description, tags, demo} = props.data;
   return (
     <Box key={id} variants={item}>
       <Title>{name}</Title>
@@ -147,9 +136,6 @@ const Card = (props) => {
         <Link to={{ pathname: `${demo}` }} target="_blank">
           Visit
         </Link>
-        <Git to={{ pathname: `${github}` }} target="_blank">
-          <Github width={30} height={30} />
-        </Git>
       </Footer>
     </Box>
   );

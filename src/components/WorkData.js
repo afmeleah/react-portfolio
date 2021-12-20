@@ -1,60 +1,50 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Definitely Not Candy Crush",
+        description:"My attempt at creating the game Candy Crush within React",
+        tags:["react"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://definitelynotcandycrush.herokuapp.com/",
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"D&D Feedback App",
+        description:"A simple feedback website to get information from my players.",
+        tags:["react"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
-        
+        demo:"https://elegant-williams-ed2bbb.netlify.app/",
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"Like Kohl's Cash?",
+        description:"A website built to track the market value of cryptocoins using an api.",
+        tags:["react","api"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://like-kohls-cash.herokuapp.com/",
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"Whats that Movie?",
+        description:"A cool looking movie search app that pulls info from a movie api.",
+        tags:["react","api","css"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
-       
+        demo:"https://whatwasthatmovie.herokuapp.com/",
     },{
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"Been There Done Chat",
+        description:"A chat app that uses websockets and node to allow users to talk in realtime.",
+        tags:["react","websockets","node"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
-        
+        demo:"https://beentheredonechat-c5j1eznbg-afmeleah.vercel.app/",
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"Real Estate App",
+        description:"A real estate app built using react, node and firebase.",
+        tags:["react","api","node", "firebase"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
-        
+        demo:"WIP",
     },
     
   
